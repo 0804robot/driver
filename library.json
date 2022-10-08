@@ -1,0 +1,27 @@
+{
+    "name": "driver",
+    "version": "1.0.0",
+    "keywords": "hardware, dc-motor, satima, motor-driver, l293, motor-control, esp32, esp32-s2, esp32-s3, esp32-c3, mission-critical, precise",
+    "description": "This library enables you to use L293 or Satima motor driver on an ESP32-based board to control 1 bidirectional DC motor. Now supporting ESP32, ESP32_S2, ESP32_S3, ESP32_C3-based boards. Tested OK with ESP32 core v2.0.4",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/0804robot/driver.git"
+    },
+    "authors": [{
+        "name": "Rodney Osodo",
+        "email": "socials@rodneyosodo.com",
+        "url": "https://www.rodneyosodo.com/contact",
+        "maintainer": true
+    }],
+    "license": "MIT",
+    "homepage": "https://github.com/0804robot/driver",
+    "dependencies": [{
+        "owner": "Abdelouahed ERROUAGUY",
+        "name": "AnalogWrite",
+        "version": "https://github.com/ERROPiX/ESP32_AnalogWrite#0.2"
+    }],
+    "frameworks": "*",
+    "platforms": "espressif32",
+    "examples": "examples/*/*.ino",
+    "headers": ["Satima.h", "L293.h"]
+}
