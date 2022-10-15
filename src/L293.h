@@ -59,7 +59,7 @@ public:
      * Defaults to coast.
      *
      */
-    void brake();
+    void brake(int mode);
 };
 
 #endif // SRC_L293_H_
