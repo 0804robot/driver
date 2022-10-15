@@ -15,6 +15,9 @@
 #ifndef SRC_L293_H_
 #define SRC_L293_H_
 #include <Arduino.h>
+#if defined(ESP32) 
+  #include <analogWrite.h>
+#endif
 
 #define COAST 1
 #define BRAKE 0
