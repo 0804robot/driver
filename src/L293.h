@@ -14,6 +14,7 @@
 
 #ifndef SRC_L293_H_
 #define SRC_L293_H_
+#include <Arduino.h>
 
 #define COAST 1
 #define BRAKE 0

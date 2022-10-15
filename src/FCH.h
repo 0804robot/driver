@@ -13,6 +13,7 @@
 
 #ifndef SRC_FCH_H_
 #define SRC_FCH_H_
+#include <Arduino.h>
 #if defined(ESP32) 
   #include <ESP32Servo.h>
 #else 

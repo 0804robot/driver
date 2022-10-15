@@ -15,7 +15,11 @@
 #ifndef SRC_SATIMA_H_
 #define SRC_SATIMA_H_
 
-#include <analogWrite.h>
+#if defined(ESP32) 
+  #include <analogWrite.h>
+#else 
+  #include <Arduino.h>
+#endif
 
 #define COAST 1
 #define BRAKE 0

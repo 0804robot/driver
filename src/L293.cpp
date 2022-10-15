@@ -1,5 +1,4 @@
 #include "L293.h"
-#include "Arduino.h"
 
 L293::L293(int IN1, int IN2, int ENA)
 {

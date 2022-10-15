@@ -1,5 +1,4 @@
 #include "Satima.h"
-#include "Arduino.h"
 
 Satima::Satima(int motor_pin_1, int motor_pin_2)
 {

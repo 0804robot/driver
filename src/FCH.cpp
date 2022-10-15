@@ -1,6 +1,4 @@
 #include "FCH.h"
-#include <Servo.h>
-#include "Arduino.h"
 
 FCH::FCH(int motor)
 {
