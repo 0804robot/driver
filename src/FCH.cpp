@@ -10,7 +10,7 @@ void FCH::setSpeed(int motor_speed)
 {
     _motor.write(motor_speed);
 }
-void FCH::brake(int mode)
+void FCH::brake()
 {
     _motor.write(90);
 }
