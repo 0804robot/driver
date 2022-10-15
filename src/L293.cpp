@@ -24,8 +24,8 @@ void L293::setSpeed(int motor_speed, int direction)
         analogWrite(this->_ENA, motor_speed);
         break;
     case COUNTERCLOCKWISE:
-        analogWrite(this->_IN1, LOW);
-        analogWrite(this->_IN2, HIGH);
+        digitalWrite(this->_IN1, LOW);
+        digitalWrite(this->_IN2, HIGH);
         analogWrite(this->_ENA, motor_speed);
         break;
     default:

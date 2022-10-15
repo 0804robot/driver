@@ -19,9 +19,12 @@
         "owner": "Abdelouahed ERROUAGUY",
         "name": "AnalogWrite",
         "version": "https://github.com/ERROPiX/ESP32_AnalogWrite#0.2"
+    },{
+        "name": "Servo",
+        "version": "https://github.com/arduino-libraries/Servo#1.1.2"
     }],
     "frameworks": "*",
     "platforms": "espressif32",
     "examples": "examples/*/*.ino",
-    "headers": ["Satima.h", "L293.h"]
+    "headers": ["Satima.h", "L293.h", "FCH.h"]
 }
