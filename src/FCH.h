@@ -13,7 +13,11 @@
 
 #ifndef SRC_FCH_H_
 #define SRC_FCH_H_
-#include <Servo.h>
+#if defined(ESP32) 
+  #include <ESP32Servo.h>
+#else 
+  #include <Servo.h>
+#endif
 class FCH
 {
 private:
