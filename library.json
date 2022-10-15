@@ -22,6 +22,9 @@
     },{
         "name": "Servo",
         "version": "https://github.com/arduino-libraries/Servo#1.1.2"
+    },{
+        "name": "ESP32Servo",
+        "version": "https://github.com/jkb-git/ESP32Servo"
     }],
     "frameworks": "*",
     "platforms": "espressif32",
